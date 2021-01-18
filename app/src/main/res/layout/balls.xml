@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ball1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/dragon_balls_black_star_one"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/ball2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/dragon_balls_black_star_two"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/ball3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/dragon_balls_black_star_three"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/ball4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/dragon_balls_black_star_four"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/ball5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/dragon_balls_black_star_five"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/ball6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/dragon_balls_black_star_six"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/ball7"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/dragon_balls_black_star_seven"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/energyBall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/dragon_balls_energy"
+        android:layout_gravity="right"/>
+
+</merge>

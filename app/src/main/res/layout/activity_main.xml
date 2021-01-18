@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mint.jump.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="top"
+            android:background="@color/blue">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="431dp"
+            android:layout_gravity="bottom"
+            android:background="@color/green"></ImageView>
+
+        <include layout="@layout/trees" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/nimbus"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/flyingnimbus"
+            android:layout_gravity="center_vertical"/>
+
+        <include layout="@layout/balls"/>
+
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to start"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"/>
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="69dp"
+        android:layout_gravity="right"
+        android:text="score: 0"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/liveLabel"
+        android:layout_width="196dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:text="live: 20"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</FrameLayout>

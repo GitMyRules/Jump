@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">cloud rider</string>
+    <string name="title_activity_game">cloud rider</string>
+    <color name="blue">#2449C1</color>
+    <color name="green">#008000</color>
+</resources>

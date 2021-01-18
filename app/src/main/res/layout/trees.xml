@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/plant1"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/plant3"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/plant2"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/plant2"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/plant3"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_gravity="right"
+        android:src="@drawable/plant3" />
+    <ImageView
+        android:id="@+id/tree8"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/tree8"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/tree9"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/tree9"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/tree6"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/tree6"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/tree7"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/tree7"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/tree2"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_gravity="right"
+        android:src="@drawable/tree2" />
+    <ImageView
+        android:id="@+id/tree3"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/tree3"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/tree4"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/tree4"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/tree5"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/tree5"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/tree1"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_gravity="right"
+        android:src="@drawable/tree1" />
+
+</merge>

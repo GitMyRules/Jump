@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mint.jump.Result"
+    android:background="#323230"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/startgif" />
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scoreLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="GAME OVER"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/highscore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="150"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tryAgain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="High Score: 300"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/tryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="tryAgain"
+        android:text="menu"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+
+        android:layout_alignBottom="@+id/tryAgain"
+        android:layout_toEndOf="@+id/highscore"
+        android:background="@android:color/holo_red_dark"
+        android:onClick="closeGame"
+        android:text="quit"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17dp" />
+
+
+</RelativeLayout>
